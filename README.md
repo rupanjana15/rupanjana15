@@ -23,7 +23,7 @@ Here’s a peek at some projects I’m working on – feel free to check them ou
 
 - **[ExplainGPT](https://github.com/rupanjana15/ExplainGPT)**: For everyone to understand what really goes inside GPT's mind so ours can take a break.
 - **[📈 Chrome Extension](https://github.com/rupanjana15/beforreal_extension)**: A fun extension that checks for sarcasm in texts in the browser.
-- **[🧠 Sarcasm Detecttion ML Model](https://github.com/rupanjana15/beforreal_website)**: Experimenting with data to create a cool solutions.
+- **[🧠 Sarcasm Detection ML Model](https://github.com/rupanjana15/beforreal_website)**: Experimenting with data to create a cool solutions.
 - **[🌐 Portfolio Website](https://github.com/rupanjana15/portfolio)**: Showcasing my work, skills, and tech journey.
 
 ---
