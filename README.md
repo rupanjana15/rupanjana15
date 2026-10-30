@@ -41,5 +41,6 @@ Here’s a peek at some projects I’m working on – feel free to check them ou
 ---
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rupanjana15&theme=radical" alt="GitHub Streak Stats" />
+  
+  ><img src="https://github-readme-streak-stats.herokuapp.com?user=rupanjana15" alt="GitHub Streak" />
 </p>
