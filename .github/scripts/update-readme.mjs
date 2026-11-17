@@ -36,7 +36,7 @@ const recent = repos.slice(0, RECENT_COUNT).map((repo) => {
   const name = `**[${repo.name}](${repo.html_url})**`;
   const description = repo.description?.trim();
   const meta = [repo.language, `updated ${formatDate(repo.pushed_at)}`].filter(Boolean).join(" · ");
-  return `- ${description ? `${name}: ${description}` : name} <sub>${meta}</sub>`;
+  return `- ${description ? `${name}: ${description}` : name} · *${meta}*`;
 });
 
 const current = readFileSync(README, "utf8");
