@@ -28,9 +28,9 @@
 
   <rect width="1200" height="300" rx="18" fill="#0a0a0a"/>
 
-  <text x="64" y="86" font-size="20" font-weight="500" fill="#c8ff65">hi, I'm</text>
-  <text x="62" y="148" font-size="60" font-weight="650" letter-spacing="-2" fill="#f2f0ea">Rupanjana Choudhury<tspan class="cursor" fill="#c8ff65">_</tspan></text>
-  <text x="64" y="192" font-size="21" fill="#b6b3ad">i build the things i want to use</text>
+  <text x="64" y="78" font-size="30" font-weight="500" fill="#c8ff65">hi, I'm</text>
+  <text x="60" y="152" font-size="76" font-weight="650" letter-spacing="-2.5" fill="#f2f0ea">Rupanjana Choudhury<tspan class="cursor" fill="#c8ff65">_</tspan></text>
+  <text x="64" y="206" font-size="32" fill="#b6b3ad">i build the things i want to use</text>
 
   <!-- floor -->
   <line x1="64" y1="252" x2="1136" y2="252" stroke="#292929" stroke-width="2"/>
@@ -67,8 +67,8 @@
       </g>
     </g>
     <g class="say">
-      <rect x="-6" y="150" width="70" height="30" rx="15" fill="#f2f0ea"/>
-      <text x="29" y="171" font-size="15" font-weight="600" fill="#0a0a0a" text-anchor="middle">hi :3</text>
+      <rect x="-14" y="142" width="86" height="38" rx="19" fill="#f2f0ea"/>
+      <text x="29" y="168" font-size="20" font-weight="600" fill="#0a0a0a" text-anchor="middle">hi :3</text>
     </g>
   </g>
 </svg>
