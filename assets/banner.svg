@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="hi, I'm Rupanjana. A little cat walks in and sits down.">
+  <style>
+    .walker { animation: walk 5.5s cubic-bezier(.35, 0, .65, 1) .6s both; }
+    .pose-walk { animation: hide 0s linear 6.1s both; }
+    .pose-sit { opacity: 0; animation: show 0s linear 6.1s both; }
+    .walker .bob { animation: bob .42s ease-in-out infinite; }
+    .leg { transform-box: fill-box; transform-origin: top center; animation: stride .42s ease-in-out infinite alternate; }
+    .leg.b { animation-direction: alternate-reverse; }
+    .tail { transform-box: fill-box; transform-origin: 85% 100%; animation: swish 2.4s ease-in-out infinite; }
+    .eyes { transform-box: fill-box; transform-origin: center; animation: blink 4s 7s infinite; }
+    .say { opacity: 0; animation: show .3s ease-out 6.5s both; }
+    .cursor { animation: blinkcursor 1s steps(1) infinite; }
+    @keyframes walk { from { transform: translateX(-120px); } to { transform: translateX(1010px); } }
+    @keyframes hide { to { opacity: 0; } }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes bob { 50% { transform: translateY(-3px); } }
+    @keyframes stride { from { transform: rotate(-25deg); } to { transform: rotate(25deg); } }
+    @keyframes swish { 50% { transform: rotate(14deg); } }
+    @keyframes blink { 0%, 94%, 100% { transform: scaleY(1); } 97% { transform: scaleY(.1); } }
+    @keyframes blinkcursor { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .walker { animation: none; transform: translateX(1010px); }
+      .pose-walk { opacity: 0; animation: none; }
+      .pose-sit, .say { opacity: 1; animation: none; }
+      .bob, .leg, .tail, .eyes, .cursor { animation: none; }
+    }
+  </style>
+
+  <rect width="1200" height="300" rx="18" fill="#0a0a0a"/>
+
+  <text x="64" y="86" font-size="20" font-weight="500" fill="#c8ff65">hi, I'm</text>
+  <text x="62" y="148" font-size="60" font-weight="650" letter-spacing="-2" fill="#f2f0ea">Rupanjana Choudhury<tspan class="cursor" fill="#c8ff65">_</tspan></text>
+  <text x="64" y="192" font-size="21" fill="#b6b3ad">i build the things i want to use</text>
+
+  <!-- floor -->
+  <line x1="64" y1="252" x2="1136" y2="252" stroke="#292929" stroke-width="2"/>
+
+  <!-- the cat: 1.6x the portfolio cat, feet on the floor -->
+  <g class="walker">
+    <g transform="translate(0 194) scale(1.6)">
+      <g class="pose-walk">
+        <g class="bob">
+          <g stroke="#f2f0ea" stroke-width="3.5" stroke-linecap="round">
+            <line class="leg" x1="14" y1="22" x2="14" y2="33"/>
+            <line class="leg b" x1="17" y1="22" x2="17" y2="33"/>
+            <line class="leg b" x1="29" y1="22" x2="29" y2="33"/>
+            <line class="leg" x1="32" y1="22" x2="32" y2="33"/>
+          </g>
+          <path d="M10 19 C 3 17, 2 9, 6 5" fill="none" stroke="#f2f0ea" stroke-width="3" stroke-linecap="round"/>
+          <ellipse cx="22" cy="20" rx="13" ry="7" fill="#f2f0ea"/>
+          <circle cx="37" cy="14" r="7" fill="#f2f0ea"/>
+          <polygon points="31,10 32,2 36,7" fill="#f2f0ea"/>
+          <polygon points="38,7 42,2 43,10" fill="#f2f0ea"/>
+          <circle cx="40" cy="13.5" r="1.3" fill="#0a0a0a"/>
+        </g>
+      </g>
+      <g class="pose-sit" transform="translate(4 0)">
+        <path class="tail" d="M9 30 C 1 30, 0 18, 6 15" fill="none" stroke="#f2f0ea" stroke-width="3" stroke-linecap="round"/>
+        <ellipse cx="18" cy="26" rx="11" ry="9" fill="#f2f0ea"/>
+        <circle cx="28" cy="14" r="7.5" fill="#f2f0ea"/>
+        <polygon points="21.5,10 22.5,1.5 27,7" fill="#f2f0ea"/>
+        <polygon points="29,7 33.5,1.5 34.5,10" fill="#f2f0ea"/>
+        <g class="eyes" fill="#0a0a0a">
+          <circle cx="25.5" cy="14" r="1.3"/>
+          <circle cx="31" cy="14" r="1.3"/>
+        </g>
+      </g>
+    </g>
+    <g class="say">
+      <rect x="-6" y="150" width="70" height="30" rx="15" fill="#f2f0ea"/>
+      <text x="29" y="171" font-size="15" font-weight="600" fill="#0a0a0a" text-anchor="middle">hi :3</text>
+    </g>
+  </g>
+</svg>

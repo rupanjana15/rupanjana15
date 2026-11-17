@@ -1,0 +1,36 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "30 0 * * *" # 06:00 in India, every day
+  workflow_dispatch: # a "Run workflow" button on the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/update-readme.mjs"
+      - ".github/workflows/update-readme.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node .github/scripts/update-readme.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet; then
+            echo "Nothing new today."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update README with latest activity"
+          git push
