@@ -45,7 +45,7 @@ sarcasm detection with a fine-tuned BERT model, as an [API](https://github.com/r
 ## 🛠️ recently worked on
 
 <!-- recent:start -->
-- **[fine-print](https://github.com/rupanjana15/fine-print)**: Fine-tuned 3B LLM that flags risky clauses in Terms of Service · *Python · updated 16 Nov 2026*
+- **[fine-print](https://github.com/rupanjana15/fine-print)**: Fine-tuned 3B LLM that flags risky clauses in Terms of Service · *Python · updated 18 Nov 2026*
 - **[portfolio](https://github.com/rupanjana15/portfolio)**: a little visual resume because reading a document can be boring <3 · *JavaScript · updated 12 Nov 2026*
 - **[job-tracker](https://github.com/rupanjana15/job-tracker)** · *updated 6 Nov 2026*
 - **[doodle-derby](https://github.com/rupanjana15/doodle-derby)** · *JavaScript · updated 30 Oct 2026*
@@ -69,4 +69,4 @@ sarcasm detection with a fine-tuned BERT model, as an [API](https://github.com/r
   <img src="https://img.shields.io/badge/Claude_Code-1f1f1f?style=for-the-badge&logo=claude&logoColor=D97757" alt="Claude Code" />
 </p>
 
-<p align="center">🐈 this readme updates itself every morning. <!-- updated:start -->last change: 17 Nov 2026.<!-- updated:end --></p>
+<p align="center">🐈 this readme updates itself every morning. <!-- updated:start -->last change: 18 Nov 2026.<!-- updated:end --></p>
