@@ -9,7 +9,7 @@
   <a href="https://portfolio-two-tau-nxuu36kuf5.vercel.app/play/doodle-derby/index.html"><b>play doodle derby</b></a>
 </p>
 
-### hi, i'm rupanjana. i work mostly in java, and outside work i build whatever i'm curious about. lately that's small language models, AI agents and a racing game.
+### hi, i'm rupanjana <3  i work mostly in java, and outside work i build whatever i'm curious about. lately that's small language models, AI agents and a racing game.
 
 ## 🐾 right now
 
