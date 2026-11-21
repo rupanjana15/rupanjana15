@@ -45,11 +45,11 @@ sarcasm detection with a fine-tuned BERT model, as an [API](https://github.com/r
 ## 🛠️ recently worked on
 
 <!-- recent:start -->
+- **[beforreal-backend](https://github.com/rupanjana15/beforreal-backend)**: A FastAPI-based sarcasm detection API that uses a fine-tuned BERT model to classify text as sarcastic or not, with a sarcasm probability score. · *Python · updated 20 Nov 2026*
 - **[fine-print](https://github.com/rupanjana15/fine-print)**: Fine-tuned 3B LLM that flags risky clauses in Terms of Service · *Python · updated 18 Nov 2026*
 - **[portfolio](https://github.com/rupanjana15/portfolio)**: a little visual resume because reading a document can be boring <3 · *JavaScript · updated 12 Nov 2026*
 - **[job-tracker](https://github.com/rupanjana15/job-tracker)** · *updated 6 Nov 2026*
 - **[doodle-derby](https://github.com/rupanjana15/doodle-derby)** · *JavaScript · updated 30 Oct 2026*
-- **[money-tracker](https://github.com/rupanjana15/money-tracker)**: to track my money , goals and calories? everything in one which i would like to update and keep myself in check with everyday · *TypeScript · updated 1 Sept 2026*
 <!-- recent:end -->
 
 ## 🧰 tools i use
@@ -69,4 +69,4 @@ sarcasm detection with a fine-tuned BERT model, as an [API](https://github.com/r
   <img src="https://img.shields.io/badge/Claude_Code-1f1f1f?style=for-the-badge&logo=claude&logoColor=D97757" alt="Claude Code" />
 </p>
 
-<p align="center">🐈 this readme updates itself every morning. <!-- updated:start -->last change: 18 Nov 2026.<!-- updated:end --></p>
+<p align="center">🐈 this readme updates itself every morning. <!-- updated:start -->last change: 21 Nov 2026.<!-- updated:end --></p>
