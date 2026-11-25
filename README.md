@@ -45,11 +45,11 @@ sarcasm detection with a fine-tuned BERT model, as an [API](https://github.com/r
 ## 🛠️ recently worked on
 
 <!-- recent:start -->
+- **[job-application-tracker](https://github.com/rupanjana15/job-application-tracker)**: so many jobs to apply but how to keep up with them? · *TypeScript · updated 24 Nov 2026*
 - **[hospital-management](https://github.com/rupanjana15/hospital-management)**: Designed and developed a hospital management application integrating patient management, scheduling, billing, and database-driven healthcare workflows. · *JavaScript · updated 23 Nov 2026*
 - **[todo](https://github.com/rupanjana15/todo)**: Trying out react so here goes my first to do app <3 · *TypeScript · updated 22 Nov 2026*
 - **[beforreal-website](https://github.com/rupanjana15/beforreal-website)**: A minimal TypeScript + Next.js frontend for the Sarcasm Detection API that allows users to input sentences and receive sarcasm predictions in real-time. · *TypeScript · updated 22 Nov 2026*
 - **[beforreal-extension](https://github.com/rupanjana15/beforreal-extension)**: A minimal Chrome extension using Manifest v3 that lets you right-click on selected text to predict if it contains sarcasm. · *JavaScript · updated 21 Nov 2026*
-- **[beforreal-backend](https://github.com/rupanjana15/beforreal-backend)**: A FastAPI-based sarcasm detection API that uses a fine-tuned BERT model to classify text as sarcastic or not, with a sarcasm probability score. · *Python · updated 20 Nov 2026*
 <!-- recent:end -->
 
 ## 🧰 tools i use
@@ -69,4 +69,4 @@ sarcasm detection with a fine-tuned BERT model, as an [API](https://github.com/r
   <img src="https://img.shields.io/badge/Claude_Code-1f1f1f?style=for-the-badge&logo=claude&logoColor=D97757" alt="Claude Code" />
 </p>
 
-<p align="center">🐈 this readme updates itself every morning. <!-- updated:start -->last change: 24 Nov 2026.<!-- updated:end --></p>
+<p align="center">🐈 this readme updates itself every morning. <!-- updated:start -->last change: 25 Nov 2026.<!-- updated:end --></p>
